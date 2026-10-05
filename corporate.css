@@ -1,15 +1,21 @@
-.corporate-left h2, hr{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
+.corporate-content{
+    background: linear-gradient(#f9e5f4, #f1b1df);
+    margin: 0;
+    padding: 0;
+    display: flow-root;
 }
 
 .corporate-left-title h2{
+    font-size:40px ;
     font-weight: 600;
-    color: #0b1657;
-    font-size: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 25px;
     margin-bottom: 5px;
+    padding-left: 0;
+    color: #0b1657;
+    margin-top: 20px;
 
 }
 
@@ -19,5 +25,20 @@
     height: 5px;
     background-color: #0b1657;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-left: 10%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.text-box{
+    margin: 50px;
+    
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+
 }
