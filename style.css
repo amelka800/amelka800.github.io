@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Clarity City", sans-serif;
+    
 }
 
 .header{
@@ -143,31 +144,60 @@ nav img{
 
     /*what we offer*/
     .offers{
+        background: linear-gradient(#f9e5f4, #f1b1df);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+    }
+
+    .offers h1{
+        font-size:40px ;
+        font-weight: 600;
+        width: 80%;
+        margin: auto;
+        text-align: left;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        padding-left: 0;
+        color: #0b1657;
+        margin-top: 20px;
+    }
+
+    .offers hr{
+        border: none;
+        width: 120px;
+        height: 5px;
+        background-color: #0b1657;
+        border-radius: 10px;
+        margin-left: 10%;
+        float: left;
+        margin-bottom: 10px;
+
+    }
+
+    .row{
         width: 90%;
         margin: auto;
         text-align: center;
-        padding-top: 70px;
-    }
-    .offers h1{
-        font-size:36px ;
-        font-weight: 600;
+        padding-top: 10px;
     }
 
 
     .offers h3{
-        color: #070707;
+        color: #0b1657;
         padding: 10px;
     }
 
     .row{
         justify-content: space-between;
         display: flex;
-        margin-top: 5%;
+        margin-top: 25px;
     }
 
     .col {
         flex-basis: 31%;
-        background: #ffe8fc;
+        background: #fff;
         border-radius: 10px;
         margin-bottom: 5%;
         padding: 20px 12px;

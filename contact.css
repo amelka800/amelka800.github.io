@@ -5,7 +5,8 @@
 }
 
 .contact-form{
-    background: linear-gradient(#f9dcf1, #eea4d9);
+    background: linear-gradient(#f9e5f4, #f1b1df);
+    
 
 }
 
@@ -14,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 90%;
 }
 
 .contact-left{
@@ -84,7 +86,3 @@
     height: 15px;
 }
 
-.contact-right img{
-    width: 50px;
-
-}
