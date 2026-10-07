@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 90%;
+    
 }
 
 .contact-left{
@@ -28,7 +28,7 @@
 .contact-left-title h2{
     font-weight: 600;
     color: #0b1657;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 5px;
 
 }
@@ -84,6 +84,11 @@
 
 .contact-left button img{
     height: 15px;
+}
+
+.contact-right img{
+    height: 300px;
+    
 }
 
 @media(max-width: 700){
