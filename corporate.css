@@ -32,7 +32,6 @@
 
 .text-box{
     margin: 50px;
-    
     padding: 50px;
     box-sizing: border-box;
     display: flex;
@@ -41,4 +40,20 @@
     background-color: #fff;
     border-radius: 20px;
 
+}
+
+.two-text-box {
+    display: flex;
+    gap: 30px;                 /* space between the boxes */
+    margin: 50px;              /* outer spacing for the whole row */
+    align-items: stretch;      /* both boxes same height */
+}
+
+.left-box,
+.right-box {
+    flex: 1;                   /* each takes 50% of the row */
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
 }

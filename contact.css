@@ -87,5 +87,7 @@
 }
 
 @media(max-width: 700){
-    
+    .contact-form{
+        flex-direction: column;
+    }
 }
