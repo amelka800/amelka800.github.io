@@ -109,31 +109,26 @@
 */
 
 /* ---------- Corporate page ---------- */
-/* ---------- Corporate page ---------- */
 .corporate-content {
-    --navy: #0b1657;
-    --pink-light: #f9e5f4;
-    --pink: #f1b1df;
-    --hot-pink: #d6409f;
-    --radius: 24px;
-
-    background: linear-gradient(var(--pink-light), var(--pink));
+    
+    background: linear-gradient(#f9e5f4, #f1b1df);
     margin: 0;
     padding: 0 0 80px;
     display: flow-root;
-    color: var(--navy);
+    color: #0b1657;
 }
 
-/* One shared container so title, stats and boxes all line up */
+
 .corporate-inner {
     width: min(1100px, 90%);
     margin: 0 auto;
+    margin-left: 50px;
     padding-top: 100px; /* clears the title's floated line */
     
 }
 
 /* ----- Title ----- */
-/* Original title styles, unchanged so it sits exactly where it did before */
+
 .corporate-left-title h2 {
     font-size: 50px;
     font-weight: 600;
@@ -175,7 +170,7 @@
 }
 
 .text-col:first-child {
-    padding-left: 0;
+    padding-left: 40px;
 }
 
 .text-col h3 {
@@ -184,7 +179,7 @@
     font-size: clamp(1.8rem, 4vw, 2.8rem);
     font-weight: 600;
     line-height: 1.1;
-    color: var(--navy);
+    color: #0b1657;
 }
 
 /* ----- Two boxes side by side ----- */
@@ -200,23 +195,23 @@
     flex: 1;
     box-sizing: border-box;
     padding: 40px;
-    border-radius: var(--radius);
+    border-radius: 24px;
 }
 
 .left-box {
     background: #fff;
-    color: var(--navy);
+    color: #0b1657;
     box-shadow: 0 10px 30px rgba(11, 22, 87, 0.12);
 }
 
 .right-box {
-    background: var(--navy);
+    background: #0b1657;
     color: #fff;
 }
 
 .left-box h3,
 .right-box h3 {
-    text-align: left; /* style.css centers every h3 globally */
+    text-align: left; 
     margin: 0 0 24px;
     font-size: 1.7rem;
     font-weight: 600;
@@ -236,7 +231,7 @@
 .right-box li {
     position: relative;
     padding-left: 26px;
-    font-size: 1.05rem;
+    font-size: 1.0rem;
     line-height: 1.3;
 }
 
@@ -250,7 +245,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: var(--hot-pink);
+    background: #d6409f;
 }
 
 /* ----- Mobile ----- */
