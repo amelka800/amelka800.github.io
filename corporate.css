@@ -122,7 +122,7 @@
 .corporate-inner {
     width: min(1100px, 90%);
     margin: 0 auto;
-    margin-left: 50px;
+    margin-left: auto;
     padding-top: 100px; /* clears the title's floated line */
     
 }
