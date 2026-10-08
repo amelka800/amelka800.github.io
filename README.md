@@ -1,2 +1,3 @@
 # amelka800.github.io
-Portfolio Website
+
+Website for Really Cool Parties, an events and birthday parties organising company. 
