@@ -248,6 +248,12 @@
     background: #d6409f;
 }
 
+/*Contact us for quote*/
+.corporate-inner h2{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
 /* ----- Mobile ----- */
 @media (max-width: 768px) {
     .text-row {
