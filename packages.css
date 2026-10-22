@@ -42,7 +42,8 @@
 }
 
 .pack-col {
-    flex-basis: 1 1 calc(25% - 10px);
+    flex-basis: 1 1 0;
+    min-width: 0;
     background: #fff;
     border-radius: 10px;
     padding: 20px 12px;
@@ -66,6 +67,12 @@
     font-size: 20px;
 }
 
+.price .title h3 {
+    margin: 0;
+    font-size: 18px;
+    overflow-wrap: anywhere;   /* safety net for long words like "Magic/Princess/" */
+}
+
 /* List items */
 .price li {
     border-bottom: 1px solid #fddaf3;
@@ -85,8 +92,17 @@
 
 /* Responsive, items stack on top of eachother */
 
+@media (max-width: 1200px) {
+    .pack-row {
+        flex-wrap: wrap;
+    }
+    .pack-col {
+        flex: 1 1 calc(50% - 20px);   /* two per row */
+    }
+}
+
 @media(max-width: 700px) {
     .pack-row {
-        flex-direction: column;
+        flex-direction: column; /* one per row */
     }
 }

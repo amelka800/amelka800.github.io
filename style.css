@@ -197,6 +197,9 @@ nav img{
     }
 
     .col {
+        display: block;            
+        text-decoration: none;    
+        color: inherit; 
         flex-basis: 31%;
         background: #fff;
         border-radius: 10px;
@@ -212,7 +215,7 @@ nav img{
     }
 
     .col:hover{
-        box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        box-shadow: 0 0 20px 0px rgba(65, 1, 54, 0.4);
     }
 
     .offers img{
